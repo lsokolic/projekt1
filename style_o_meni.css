@@ -1,0 +1,72 @@
+.about-card {
+  background: #141d27;
+  border-radius: 20px;
+  max-width: 700px;
+  padding: 24px;
+  margin: 20px auto;
+  box-shadow: 0 15px 30px #00000080;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: scale(1.08);
+}
+
+  img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+  img:hover {
+  transform: scale(1.08);
+}
+
+.about-text h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: #a7b3c4
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #a7b3c4;
+}
+
+.portfolio-box img {
+    background: #141d27c9;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  width: 375px;
+  height: 468px;        
+  object-fit:cover;    
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-box img:hover {
+  transform: scale(1.08);
+}
+.video-box {
+  max-width: 900px;
+  margin: 60px auto;
+  border-radius: 24px;
+  overflow: hidden; 
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);;
+}
+
+.video-box iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+}

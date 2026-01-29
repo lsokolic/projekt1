@@ -1,0 +1,39 @@
+/* ===== GRID LAYOUT ===== */
+.grid-container {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns = 2 rows for 10 boxes */
+  gap: 20px;
+}
+
+/* ===== BOX ===== */
+.box {
+  background-color: #141d27;;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px #00000080;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.25s ease;
+}
+
+/* ===== IMAGE ===== */
+.box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ===== TEXT ===== */
+.box p {
+  margin: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* ===== HOVER EFFECT ===== */
+.box:hover {
+  transform: scale(1.08);
+}
+
